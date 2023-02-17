@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: white;
+} 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}  
+body nav {
+    background-color: gray;
+}
+body nav ul {
+    list-style: none;
+}
+body nav li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    text-indent: 20px;
+}
+body nav li:hover {
+    background-color: red;
+}
+
+header h1 {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-indent: 30px;
+}
+/* header nav {
+    background-color: gray;
+}
+header nav ul {
+    list-style: none;
+}
+header nav li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    text-indent: 50px;
+}
+header nav li:hover {
+    background-color: red;
+} */
+main {
+    padding: 0 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: whitesmoke;
+}
+section nav li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    text-indent: 5px;
+}
+section {
+    border: 1px solid #999;
+    margin-bottom: 15px;
+}
+#description {
+    border: 1px solid white;
+    background-color: white;
+}
+section p {
+    text-align: center;
+}
+section p img {
+    border: 1px solid black;
+    margin-top: 10px;
+}
+section h2 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+section dl {
+    padding: 15px;
+}
+section nav li {
+    list-style: none;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: orange;
+    padding: 5px;
+}
+section div{
+    display: inline-block;
+    padding: 10px;
+    
+}
+section div img {
+    
+    width: auto;
+    height: auto;
+    border: 5px solid red;
+    display: block;
+    max-height:200px;
+   
+}
+section div figcaption {
+    text-align: center;
+    padding: 10px;
+}
+.bod{
+    margin-left: 50px;
+}
+.boz1 {
+    border: 1px solid black;
+}
+.boz2 {
+    border: 1px solid black;
+}
+.boz3 {
+    border: 1px solid black;
+}
+.box1 {
+    margin: 15px 120px;
+}
+.box2 {
+    margin: 15px 120px;
+}
+.box3 {
+    margin: 15px 100px;
+}
+
+/* .btn-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FFF;
+    text-decoration: none;
+}
+.btn-link span {
+    display: block;
+    background: red;
+    padding: 4px 15px;
+} */
+
+footer {
+    background-color: black;   
+    color: white;
+    padding: 15px;
+}
+footer div {
+    text-indent: 15px;
+}
+
