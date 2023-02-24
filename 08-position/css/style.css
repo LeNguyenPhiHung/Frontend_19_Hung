@@ -1,0 +1,81 @@
+* ,
+*::before
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box {
+    background-color: green;
+    width: 100px;
+    height: 80px;
+    position: fixed;
+    text-align: center;
+    line-height: 70px;
+}
+.box1 {
+    background-color: red;
+    width: 80px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+}
+.Top-Left {
+    top: 0;
+    left: 0;
+}
+.Top-Right {
+    right: 0;
+    top:0;
+}
+.Bottom-Left {
+    bottom: 0;
+    left: 0;
+}
+.Bottom-Right {
+    bottom: 0;
+    right: 0;
+}
+.Top-Center {
+    left: 50%;
+    top: 0;
+    margin-left: -50px;
+}
+.Right-Center {
+    right: 0;
+    top: 50%;
+    margin-top: -40px;
+}
+.Bottom-Center {
+    bottom: 0;
+    left: 50%;
+    margin-left: -50px;
+}
+.Left-Center {
+    left: 0;
+    top: 50%;
+    margin-top: -40px;
+}
+.Center-Center {
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -40px;
+}
+.CTL {
+    top: -60px;
+    left: -80px;
+}
+.CTR {
+    top: -60px;
+    right: -80px;
+}
+.CBL {
+    bottom: -60px;
+    left: -80px;
+}
+.CBR {
+    bottom: -60px;
+    right: -80px;
+}

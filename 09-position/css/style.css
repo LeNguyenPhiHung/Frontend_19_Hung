@@ -1,0 +1,65 @@
+* ,
+*::before
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box {
+    background-color: orange;
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 0;
+    position: relative;
+    color: white;
+}
+.box b {
+    color: yellow;
+    font-size: 50px;
+}
+.boxodd {
+    background-color: darkcyan;
+    width: 25%;
+    display: inline-block;
+    font-size: 25px;
+    position: absolute;
+}
+.boxeven {
+    background-color: darkblue;
+    width: 25%;
+    display: inline-block;
+    font-size: 25px;
+    position: absolute;
+}
+.one {
+    top: 10%;
+}
+.two {
+    top: 15%;
+    left: 25%;
+}
+.three {
+    top: 13%;
+    left: 50%;
+}
+.four {
+    top: 5%;
+    left: 75%;
+}
+.five {
+    bottom: 12%;
+}
+.six {
+    bottom: 8%;
+    left: 25%;
+}
+.seven {
+    bottom: 5%;
+    left: 50%;
+}
+.eight {
+    bottom: 10%;
+    left: 75%;
+}

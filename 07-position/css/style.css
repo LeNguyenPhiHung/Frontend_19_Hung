@@ -1,0 +1,37 @@
+:root {
+    --size-large:300px;
+    --size-small:250px;
+    --border-size:-10px;
+}
+* ,
+*::before
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box {
+    margin: auto;
+    width: var(--size-large);
+    height: var(--size-large);
+    margin-top: 50px;
+    background-color: blue;
+    position: relative;
+}
+.box-top,
+.box-bottom {
+    width: var(--size-small);
+    height: var(--size-small);
+    position: absolute;
+    z-index: -1;
+}
+.box-top {
+    top: var(--border-size);
+    left: var(--border-size);
+    background-color: yellow;
+}
+.box-bottom {
+    right: var(--border-size);
+    bottom: var(--border-size);
+    background-color: green;
+}
