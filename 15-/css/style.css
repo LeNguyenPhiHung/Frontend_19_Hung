@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+.account {
+  background-color: #E6E6FA; 
+  width: 1000px;
+  height: 700px;
+  padding: 20px;
+  margin: 50px;
+  position: relative;
+}
+.account1 {
+  background-color: #663399;
+  color: white;
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+}
+.account1 i {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: grey;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+}
+.content {
+  padding: 50px;
+}
+.account2 {
+  position: absolute;
+  top: 50px;
+  right: 80px;
+  bottom: 50px;
+}
+.content1 {
+  padding: 10px;
+}

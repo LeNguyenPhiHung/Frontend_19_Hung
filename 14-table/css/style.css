@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+.Submit {
+    margin: 200px 500px;
+    max-width: 500px;
+    box-shadow: 0 0 17px 2px rgba(185, 211, 238, 0.8);
+}
+.Submit-header {
+    background: blue;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+}
+.Submit-header i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.Submit-body {
+    padding: 50px;
+    border-radius: 0 0 10px 10px;
+    background: whitesmoke;
+}
+.Submit-group {
+    padding: 20px;
+}
+.Submit-group input {
+    display: flex;
+    width: 350px;
+    height: 40px;
+    border: 0;
+    border-bottom: 1px solid blue;
+}
+.Submit-group select {
+    width: 350px;
+    height: 40px;
+    display: flex;
+    border: 0;
+    border-bottom: 1px solid blue;
+}
+.Submit-group1 button {
+    background-color: blue;
+    color: white;
+    padding: 15px 40px;
+    /* width: 150px;
+    height: 50px; */
+    border-radius: 30px;
+    font-size: 18px;
+}
+.Submit-group1 {
+    text-align: center;
+    padding-top: 50px;
+}
